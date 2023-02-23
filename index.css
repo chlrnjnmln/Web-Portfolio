@@ -1,0 +1,28 @@
+
+
+
+* {
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Crimson Text', serif;
+}
+.navbar {
+	background-color: #A7727D;
+}
+
+body {
+	background-image: url(images/landingbg.gif);
+}
+
+.hello {
+	font-family: 'Space Mono', monospace;
+}
+
+.name {
+	font-family: 'Zeyada', cursive;
+	font-size: 10rem;
+}
+.welcome {
+	font-family: 'Space Mono', monospace;
+}
