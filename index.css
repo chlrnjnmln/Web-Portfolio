@@ -13,6 +13,7 @@
 
 body {
 	background-image: url(images/landingbg.gif);
+
 }
 
 .hello {
@@ -21,7 +22,7 @@ body {
 
 .name {
 	font-family: 'Zeyada', cursive;
-	font-size: 10rem;
+	font-size: 5rem;
 }
 .welcome {
 	font-family: 'Space Mono', monospace;
