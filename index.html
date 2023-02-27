@@ -2,28 +2,38 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Developer Portfolio</title>
+	
+	<!-- Mobile Responsive Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Mobile Responsive Meta Tag -->
-         <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS External Link -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<!-- CSS Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-        <!-- External CSS -->
-        <link rel="stylesheet" type="text/css" href="./index.css">
+	
 
-        <!-- Google Fonts -->
+	 <!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@700&family=Space+Mono&family=Zeyada&display=swap" rel="stylesheet">
+
+	<title>Developer Portfolio</title>
+
+
 </head>
 <body>
-	<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark">
-		  <a class="navbar-brand" href="./index.html">Chlaren Jane Malunao</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
+	<div>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-warning">
+		  <a class="navbar-brand" href="./index.html">
+		  	<img src="./images/chlaren.png" class="logo img-fluid d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle naviation">
+		  	    <span class="material-icons">
+		  	    	<img src="./images/baseline.png">
+		  	    </span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav ml-auto">
@@ -34,44 +44,116 @@
 		        <a class="nav-link" href="./project.html">Projects</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="./contact.html">Contact Me</a>
+		        <a class="nav-link" href="./contactme.html">Contact Me</a>
 		      </li>
 		    </ul>
 		  </div>
-		</nav>	
-
-	<!--Home/Landing Page  -->
-
-	<div class="landing container-fluid justify-content-center d-block d-flex">
-		<div class="p-3 m-3">
-			<h3 class="hello">Hello, My Name Is</h3>
-			<h3 class="name">Chlaren Jane</h3>
-			<h2 class="welcome">Welcome to my Portfolio</h2>
-		</div>
-		<div class="p-3 m-3">
-			<img src="./images/pic.gif">
-			<div class="pagelinks d-block d-flex justify-content-around">
-				<a href="https://www.linkedin.com/in/chlarenjane/">linkedin</a>
-				<a href="https://www.facebook.com/chlarenjane/">facebook</a>
-				<a href="https://www.upwork.com/freelancers/~01288896ace24b401c">upwork</a>
-			</div>
-		</div>
+		</nav>			
 		
 
-	</div>
+	<!-- Landing Section -->
+	
+        <div class="container-fluid pl-3 pr-3">
+                <div class="row text-center align-top">
+                <div class="pr-4 pl-4 col-lg-6 order-2 order-md-2">
+                    <img src="./images/profile.png" class="img-fluid w-50"/>
+                    <p class="text-center pt-2 pb-2" id="summary">
+                    	   An achiever, problem-solver, and dependable, with accumulated 4 years of proven experience working in a BPO company as a Credit Underwriter.Now, taking my road to different path. I have found my passion and that is to be a "Web Developer". Seeking to enrich my knowledge, utilize my area of competence, and pursue career growth in tech industry.
+                    </p>
 
+                    <a class=" col-xs-6 d-xs-inline btn btn-warning btn-sm m-auto d-lg-none w-75" href="https://www.dropbox.com/s/m0mbs4xei6qqduw/CV%20-%20Chlaren%20Jane%20Malunao%20General.pdf?dl=0" target="t" role="button">Download CV</a> 
 
+                    <div class="d-flex flex-xs-row justify-content-center">
 
+                    	<a href="https://www.facebook.com/chlarenjane/" class="icon">
+                    		<img src="./images/fb.png" class="img-fluid d-lg-none col-xs-1 d-xs-inline-block w-75">
+                    	</a>
+                    	<a href="https://www.instagram.com/clara.jane04/" class="icon">
+                    		<img src="./images/instagram.png" class="img-fluid d-lg-none col-xs-1 d-xs-inline-block w-75">
+                    	</a>
+                  		<a href="https://www.linkedin.com/in/chlarenjane/" class="icon">
+                  			<img src="./images/linkedin.png" class="img-fluid d-lg-none col-xs-1 d-xs-inline-block w-75">
+                  		</a>
+                  		<a href="https://gitlab.com/b256-malunao" class="icon">
+                  			<img src="./images/gitlab.png" class="icon img-fluid d-lg-none col-xs-1 d-xs-inline-block w-75"></a>
+                  		
+                  	</div>
+                </div>
+                <div class="pl-3 pr-3 col-lg-6 order-1 order-md-1 align-self-center">
+                    <img src="./images/hello.gif" class="img-fluid w-100">
+                    <div class="d-flex-row d-inline-block justify-content-center">
+                    	
+                    	<a class=" col-lg-2 btn btn-warning btn-sm mt-4 d-none d-sm-none d-md-none d-lg-inline d-xl-inline" href="https://www.dropbox.com/s/m0mbs4xei6qqduw/CV%20-%20Chlaren%20Jane%20Malunao%20General.pdf?dl=0" target="t" role="button">Download CV</a>   
 
+                    	<a href="https://www.facebook.com/chlarenjane/">
+                    		<img src="./images/fb.png" class="img-fluid w-50 d-none d-sm-none d-md-none d-lg-inline d-xl-inline col-lg-1">
+                    	</a>
+                    	<a href="https://www.instagram.com/clara.jane04/">
+                    		<img src="./images/instagram.png" class="img-fluid w-50 d-none d-sm-none d-md-none d-lg-inline d-xl-inline col-lg-1">
+                    	</a>
+                  		<a href="https://www.linkedin.com/in/chlarenjane/">
+                  			<img src="./images/linkedin.png" class="img-fluid w-50 d-none d-sm-none d-md-none d-lg-inline d-xl-inline col-lg-1">
+                  		</a>
+                  		<a href="https://gitlab.com/b256-malunao">
+                  			<img src="./images/gitlab.png" class="img-fluid w-50 d-none d-sm-none d-md-none d-lg-inline d-xl-inline col-lg-1"></a>
+                  	</div>	
+                </div>
+            </div>
+        </div>
+           
 
+    
+     <!--Footer  -->
 
+		<div class="container-fluid p-3 mt-5" id="foota">
+			<div class="row">
+				<div class="col-lg-4">
+					<h3>Chlaren Jane Malunao</h3>
+					<h5>Software Developer</h5>
+					<h5>Follow me on my social accounts</h5>
+					 <div class="d-flex flex-row justify-content-center">
 
-
-
-
-
-		 <!-- Bootstrap Script -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+                    	<a href="https://www.facebook.com/chlarenjane/" class="icon">
+                    		<img src="./images/fb.png" class="img-fluid w-50">
+                    	</a>
+                    	<a href="https://www.instagram.com/clara.jane04/" class="icon">
+                    		<img src="./images/instagram.png" class="img-fluid w-50">
+                    	</a>
+                  		<a href="https://www.linkedin.com/in/chlarenjane/" class="icon">
+                  			<img src="./images/linkedin.png" class="img-fluid w-50">
+                  		</a>
+                  		<a href="https://gitlab.com/b256-malunao" class="icon">
+                  			<img src="./images/gitlab.png" class="icon img-fluid w-50"></a>
+                  		
+                  	</div>
+				
+				</div>
+				<div class="col-lg-4">
+					<h2>Quick Links</h2>
+					<ul id="quicklinks">
+						<li> <a href="./aboutme.html" class="linky">About Me</a></li>
+						<li> <a href="./project.html" class="linky">Projects</a></li>
+						<li> <a href="./contactme.html" class="linky">Contant Me</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<h2>Contact</h2>
+					<ul class="cd">
+						<li>Email Address: chlarenmalunao@gmail.com</li>
+						<li>Phone Number: +6399789322840</li>
+						<li>Address: General Trias Cavite</li>
+					</ul>
+				</div>
+				
+			</div>			
+		</div>
+		<div class="text-center">
+        <span>&copy; 2023 by Chlaren Jane Malunao. All Rights Reserved</span>
+        </div>
+	</footer>
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>

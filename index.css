@@ -1,29 +1,106 @@
-
-
-
 * {
 	margin: 0;
 	border: 0;
 	box-sizing: border-box;
 	font-family: 'Crimson Text', serif;
+	color: #c7973a;
 }
-.navbar {
-	background-color: #A7727D;
-}
+
+/*font-family: 'Crimson Text', serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Zeyada', cursive;*/
 
 body {
-	background-image: url(images/landingbg.gif);
+	background-image: url(./images/glitter2.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.nav-link {
+	color: #c7973a;
+	font-size: 1.5rem;
+}
+
+.logo {
+	float: left;
+	width: 300px;
+	height: 120px;
+} 
+
+.btn {
+	background-image: url(./images/glitter3.jpg);
+	border-radius: 50px;
+	border: 1px solid lightgoldenrodyellow;
+	font-weight: bold;
+	display: absolute;
 
 }
 
-.hello {
+#summary {
 	font-family: 'Space Mono', monospace;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 1);
 }
 
-.name {
-	font-family: 'Zeyada', cursive;
-	font-size: 5rem;
+
+#worke {
+	background-color: lightgoldenrodyellow;
+  	opacity: 0.5;
+  	font-weight: bold;
+  	color: black;
 }
-.welcome {
+
+.workexperience {
+	background-color: black;
+	border: 1px solid yellow;
+}
+
+#eduback {
+	background-color: lightgoldenrodyellow;
+  	opacity: 0.5;
+  	font-weight: bold;
+  	color: black;
+}
+
+.educationalbackground {
+	background-color: black;
+	border: 1px solid yellow;
+}
+
+.linky {
+	color: black;
+	text-decoration-color: lightgoldenrodyellow;
+}
+
+
+
+#foota {
 	font-family: 'Space Mono', monospace;
+ 	background-color: #ffffff;
+  	opacity: 0.5;
+  	font-weight: bold;
+
+}
+
+/*project*/
+
+#html {
+	background-color: lightgoldenrodyellow;
+  	opacity: 0.5;
+  	font-weight: bold;
+  	color: black;
+}
+
+#css {
+	background-color: lightgoldenrodyellow;
+  	opacity: 0.5;
+  	font-weight: bold;
+  	color: black;
+}
+
+#bootstrap {
+	background-color: lightgoldenrodyellow;
+  	opacity: 0.5;
+  	font-weight: bold;
+  	color: black;
 }

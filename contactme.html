@@ -2,28 +2,38 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Developer Portfolio</title>
+	
+	<!-- Mobile Responsive Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Mobile Responsive Meta Tag -->
-         <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS External Link -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<!-- CSS Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-        <!-- External CSS -->
-        <link rel="stylesheet" type="text/css" href="./index.css">
+	
 
-        <!-- Google Fonts -->
+	 <!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@700&family=Space+Mono&family=Zeyada&display=swap" rel="stylesheet">
+
+	<title>Developer Portfolio</title>
+
+
 </head>
 <body>
-	<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark">
-		  <a class="navbar-brand" href="./index.html">Chlaren Jane Malunao</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
+	<div>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-warning">
+		  <a class="navbar-brand" href="./index.html">
+		  	<img src="./images/chlaren.png" class="logo img-fluid d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle naviation">
+		  	    <span class="material-icons">
+		  	    	<img src="./images/baseline.png">
+		  	    </span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav ml-auto">
@@ -34,27 +44,126 @@
 		        <a class="nav-link" href="./project.html">Projects</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="./contact.html">Contact Me</a>
+		        <a class="nav-link" href="./contactme.html">Contact Me</a>
 		      </li>
 		    </ul>
 		  </div>
-		</nav>	
+		</nav>			
+
+<!-- Contact Me -->
+
+	<h1 class="text-center">Contact Me</h1>
+	<div class="row  container-fluid justify-content-around m-auto">
+		
+
+		<div class="col-lg-4">
+		<form class="bg-warning container-fluid p-3">
+							<form action="https://www.google.com/">
+
+							<div class="form-group">
+						    <label for="name">Name</label>
+						    <input type="text" class="form-control" id="name1" placeholder="Your Name">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="email_address">Email address</label>
+						    <input type="email" class="form-control" id="email_address1" placeholder="name@example.com">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="contact_number">Contact Number</label>
+						    <input type="email" class="form-control" id="contact_number1" placeholder="+63 900 000 000">
+						  </div>
+					
+						  <div class="form-group">
+						    <label for="exampleFormControlTextarea1">Message</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						  </div>
+
+	<!-- Button trigger modal -->
+		<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal">
+		Send Email</button>
+
+				<!-- Modal -->
+				<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        Message Successfully Sent
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				       
+				      </div>
+				    </div>
+				  </div>
+				</div>
+	        </div>
+	           <!--MAP  -->
+			<div class="col-lg-6 mb-3 mt-3" id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.618048794917!2d120.898194614629!3d14.391497089935921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d3633521690d%3A0x890f6dba3c848a08!2sLancaster%20New%20City!5e0!3m2!1sen!2sph!4v1677468871878!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="container-fluid"></iframe>
+			</div>
 
 
+	</div>	
+    <!--Footer  -->
 
+		<div class="container-fluid p-3 mt-5" id="foota">
+			<div class="row">
+				<div class="col-lg-4">
+					<h3>Chlaren Jane Malunao</h3>
+					<h5>Software Developer</h5>
+					<h5>Follow me on my social accounts</h5>
+					 <div class="d-flex flex-row justify-content-center">
 
+                    	<a href="https://www.facebook.com/chlarenjane/" class="icon">
+                    		<img src="./images/fb.png" class="img-fluid w-50">
+                    	</a>
+                    	<a href="https://www.instagram.com/clara.jane04/" class="icon">
+                    		<img src="./images/instagram.png" class="img-fluid w-50">
+                    	</a>
+                  		<a href="https://www.linkedin.com/in/chlarenjane/" class="icon">
+                  			<img src="./images/linkedin.png" class="img-fluid w-50">
+                  		</a>
+                  		<a href="https://gitlab.com/b256-malunao" class="icon">
+                  			<img src="./images/gitlab.png" class="icon img-fluid w-50"></a>
+                  		
+                  	</div>
+				
+				</div>
+				<div class="col-lg-4">
+					<h2>Quick Links</h2>
+					<ul id="quicklinks">
+						<li> <a href="./aboutme.html" class="linky">About Me</a></li>
+						<li> <a href="./project.html" class="linky">Projects</a></li>
+						<li> <a href="./contactme.html" class="linky">Contant Me</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<h2>Contact</h2>
+					<ul class="cd">
+						<li>Email Address: chlarenmalunao@gmail.com</li>
+						<li>Phone Number: +6399789322840</li>
+						<li>Address: General Trias Cavite</li>
+					</ul>
+				</div>
+				
+			</div>			
+		</div>
+		<div class="text-center">
+        <span>&copy; 2023 by Chlaren Jane Malunao. All Rights Reserved</span>
+        </div>
+	</footer>
 
-
-
-
-
-
-
-
-
-
-		 <!-- Bootstrap Script -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
