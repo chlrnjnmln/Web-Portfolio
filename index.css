@@ -47,6 +47,27 @@ body {
 }
 
 
+
+.linky {
+	color: black;
+	text-decoration-color: lightgoldenrodyellow;
+}
+
+
+
+#foota {
+	font-family: 'Space Mono', monospace;
+ 	background-color: #ffffff;
+  	opacity: 0.5;
+  	font-weight: bold;
+
+}
+
+/*About Me*/
+#aboutme {
+	border: 2px double yellow;
+}
+
 #worke {
 	background-color: lightgoldenrodyellow;
   	opacity: 0.5;
@@ -71,20 +92,45 @@ body {
 	border: 1px solid yellow;
 }
 
-.linky {
-	color: black;
-	text-decoration-color: lightgoldenrodyellow;
+.company {
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
+.position {
+	font-size: 1rem;
+	font-style: italic;
+}
 
+.duration {
+	font-size: 1rem;
+	font-style: italic;
+}
 
-#foota {
-	font-family: 'Space Mono', monospace;
- 	background-color: #ffffff;
+.jobdes {
+ 	font-size: 1rem;
+ 	font-weight: bold;
+ } 
+
+.school {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.edudes {
+ 	font-size: 1rem;
+ 	font-weight: bold;
+ } 
+
+#skills {
+	background-color: lightgoldenrodyellow;
   	opacity: 0.5;
   	font-weight: bold;
-
+  	color: black;
 }
+
+
+
 
 /*project*/
 
@@ -113,3 +159,18 @@ body {
 	font-weight: bold;
 	color: black;
 }
+
+#tools-section {
+	background-color: black;
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+}
+
+#projects {
+	border: 2px double yellow;
+}
+
+#contactme {
+	border: 2px double yellow;
+}
+
